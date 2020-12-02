@@ -1,4 +1,4 @@
-# code-challenge-3
+# Code-challenge-3
 ## The AirBnB Thing Redesign
 1. Created empty Repo named code-challenge-3
 2. Cloned Repo to my desktop
