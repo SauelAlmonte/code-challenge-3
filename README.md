@@ -57,3 +57,4 @@
    * Button/Link for **Explore Near By**
 
 9. Noted README.md file with proper markdown
+10. Depployed **code challenge 3** to Vercel
