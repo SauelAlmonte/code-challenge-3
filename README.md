@@ -40,5 +40,20 @@
 
 4. In iTerm (commander for PC users) entered commands for dependencies
    ### Example
-    * yarn add live-server
-    * yarn add tailwindcss
+    * yarn add -D live-server
+    * yarn add tailwindcss postcss autoprefixer
+    * npx tailwindcss init
+  ### Made sure all dependencies were properly added to
+    * tailwind.css folders /src & /dist
+5. Began redesign of AirBnB Web Page
+6. Started with proper !Doctype
+7. Inserted rel="stylesheet" href="dist/tailwind.css" in header to make sure index.html properly communicates with correct files
+8. Started layout, then proceeded to create multiple div's
+   * Container, Added Background
+   * Header
+   * Nav/Buttons/Links
+   * Search Bar, Was not succesful on creating the 3 categories within search bar
+   * Text
+   * Button/Link for **Explore Near By**
+
+9. Noted README.md file with proper markdown
