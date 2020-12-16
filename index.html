@@ -15,12 +15,12 @@
         }
     </style> -->
 </head>
-<body class="bg-fixed bg-white bg-center bg-no-repeat bg-cover" style="background-image: url('img/background1.jpg')">    
+<body class="bg-white bg-center bg-no-repeat bg-cover md:bg-fixed" style="background-image: url('img/background1.jpg')">    
             <!--header start-->
                 <header class="flex flex-wrap lg:px-16 lg:py-4">
                         
                             <div class="flex flex-1">
-                                <a href="#"><img class="items-center w-32 pt-4" src="/img/airbnblogo4.png" alt="AirBnB Logo"></a>
+                                <a href="#"><img class="items-center pt-4 w-28" src="/img/airbnblogo4.png" alt="AirBnB Logo"></a>
                                 
                             </div>  
                             
@@ -34,9 +34,9 @@
                         
                             <!-- <div class="hidden w-full lg:flex lg:w-auto" id="menu"> -->
                                 
-                                <div class="items-center">
+                                <div class="items-center lg:flex lg:pt-0">
                                             
-                                    <ul class="text-base text-white lg:flex lg:pt-0">
+                                    <ul class="font-serif text-base antialiased font-medium text-white lg:flex lg:pt-0">
                                         <li>
                                             <a href="#" class="block border-b-2 border-transparent hover:border-gray-400 lg:p-4">Places to stay</a>
                                         </li>
@@ -47,28 +47,29 @@
                                             <a href="#" class="block border-b-2 border-transparent hover:border-gray-400 lg:p-4">Online Experiences</a>
                                         </li>
                                     </ul>
-                                            
-                                </div>    
-                                
-                                <div class="items-center">
-                                    <div class="hidden w-full lg:flex lg:items-center lg:w-auto" id="menu"></div>
+                                    
+                                    <ul class="flex pt-4 text-base text-white lg:pt-0"> 
+                                        <li>
+                                            <a href="#" class="block font-serif text-sm subpixel-antialiased tracking-normal border-b-2 border-transparent hover:border-gray-400 lg:p-4">Become a host</a>
+                                        </li>
+                                        
+                                            <a href="#" class="flex items-center pr-2 cursor-pointer gray">
+                                            <i class="text-white fas fa-globe " alt="fa-globe"></i>  
+                                    </ul> 
+
+                                                 <!-- <div class="items-center lg:flex lg:pt-0"> -->
+                                    <!-- <div class="hidden w-full lg:flex lg:items-center lg:w-auto" id="menu"> -->
                                         <!-- <a href="#" class="flex items-center cursor-pointer"> -->
-                                        <ul class="flex pt-4 text-base text-white lg:pt-0"> 
-                                            <li>
-                                                <a href="#" class="block border-b-2 border-transparent hover:border-gray-400 lg:p-4">Become a host</a>
-                                            </li>
-                                                <a href="#" class="flex items-center pr-2 cursor-pointer gray">
-                                                <i class="text-white fas fa-globe" alt="fa-globe"></i>
-                                        </ul>    
+                                    
                                 </div>
                                 
                                 <div class="flex items-center">
                                         <a href="#" class="cursor-pointer ">
-                                    <div class="flex items-center bg-white border-0 border-gray-400 rounded-full lg:py-1 lg:px-2">
-                                        <i class="pl-2 fas fa-bars" alt="bars"></i>
+                                    <div class="flex items-center bg-white border-0 border-gray-400 rounded-full lg:py-1 lg:px-1">
+                                        <i class="pl-2.5 fa-sm fas fa-bars" alt="bars"></i>
                                         
                                         <a href="#" class="flex cursor-pointer item-center lg:ml-4 lg:mb-0">
-                                            <img src="/img/AMPLJacket.jpg" class="w-10 h-10 border-2 rounded-full" alt="user name">          
+                                            <img src="/img/AMPLJacket.jpg" class="w-8 h-8 border-2 rounded-full" alt="user name">          
                                     </div>    
                                 </div> 
                                 
@@ -80,30 +81,34 @@
 
             <!--search start-->
              
-            <search class="flex flex-wrap justify-center hidden lg:flex lg:items-center lg:w-auto lg:px-14 lg:py-2" id="menu">
+            <!-- <search class="flex flex-wrap lg:flex lg:items-center lg:w-auto lg:px-14 lg:py-2" id="menu"> -->
                 
-                <div class="flex rounded-full">
+                <!-- <div class="flex rounded-full">
 
-                    <input class="px-6 py-4 leading-tight text-gray-700 rounded-full focus:outline-none" id="search" type="text" placeholder="Search">
+                    <input class="px-6 py-4 text-gray-700 rounded-full shadow-2xl focus:outline-none" id="search" type="text" placeholder="Search">
                         <button class="flex items-center justify-center w-12 h-12 p-2 text-white bg-red-400 rounded-full hover:bg-red-600 focus:outline-none">
                             <i class="fas fa-search"></i>
                         </button>    
                 </div>
                 
-            </search>   
+            </search>    -->
                 
             <!--search end-->
 
-            <!--go near start-->      
-            <div class="">
-                <h1 class="mb-4 font-sans text-4xl text-white">Go Near</h1>
-                <h1 class="mb-2 font-sans text-sm text-white w-72">Settle in somewhere new. Discover stays to live, work, or just relax.</h1>
-            </div>
-            <!-- <a href="#" class="font-sans text-white border-2 rounded-lg lg:py-2 lg:px-4">Explore nearby</a>   -->
-        
-            <a href="#" class="font-sans text-white border-2 rounded-lg border-black-600 lg:py-2 lg:px-4">Explore nearby</a>
-           
-                      
+            <!--go near start-->
+                    <div>      
+                            <div class="flex lg:px-10">
+                                <a class="font-sans font-bold text-white opacity-100 text-8xl w-72">Go Near</a>
+                            </div>
+                            
+                            <div class="flex lg:px-16">   
+                                <a class="mb-4 font-sans text-sm font-medium text-white opacity-100 w-72">Settle in somewhere new. Discover stays to live, work, or just relax.</a>
+                            </div> 
+                                <!-- <a href="#" class="font-sans text-white border-2 rounded-lg lg:py-2 lg:px-4">Explore nearby</a>   -->
+                            <div class="flex lg:px-16">
+                                <a href="#" class="box-content p-1 font-sans text-sm text-black bg-white border-opacity-75 rounded-lg shadow-md opacity-100 border-1 border-ligh-gray-400 lg:py-1.5 lg:px-2.5 ">Explore nearby stays</a>
+                            </div>     
+                    </div>          
             <!--go near end-->
             
             <!-- JS dependencies --> 
