@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="dist/tailwind.css">
     <title>AirBnB</title>
     
-    <!-- <style>
+    <style>
         #menu-toggle:checked + #menu {
             display: block;
         }
-    </style> -->
+    </style>
 </head>
-<body class="bg-white bg-center bg-no-repeat bg-cover md:bg-fixed" style="background-image: url('img/background1.jpg')">    
+<body class="bg-white bg-center bg-no-repeat bg-cover lg:bg-fixed" style="background-image: url('img/background1.jpg')">    
     <!--header start-->
         <header class="flex flex-wrap items-center px-6 py-2 lg:px-16 lg:py-2">
                 
@@ -24,72 +24,70 @@
                 
             </div>  
                     
-                    <!-- <label for="menu-toggle" class="block cursor-pointer lg:hidden" id="menu">
+                    <label for="menu-toggle" class="block cursor-pointer lg:hidden" id="menu">
                         
-                        <i class="fill-current fas fa-bars"></i>
+                        <i class="text-white fill-current fas fa-bars"></i>
                         
-                    </label> -->
+                    </label>
                 
-                    <!-- <input type="checkbox" class="hidden" id="menu-toggle" /> -->
+                   <input type="checkbox" class="hidden" id="menu-toggle" />
                 
-                    <!-- <div class="hidden w-full lg:flex lg:w-auto" id="menu"> -->
-                
-            <div class="justify-center lg:flex ">
-                        
-                <ul class="mr-16 font-serif text-base antialiased font-thin text-white lg:flex lg:pt-0">
-                    <li>
-                        <a href="#" class="block border-b-2 border-transparent hover:border-gray-400 lg:p-4">Places to stay</a>
-                    </li>
-                    <li>
-                        <a href="#" class="block border-b-2 border-transparent hover:border-gray-400 lg:p-4">Experiences</a>
-                    </li>
-                    <li>
-                        <a href="#" class="block border-b-2 border-transparent hover:border-gray-400 lg:p-4">Online Experiences</a>
-                    </li>
-                </ul>
-                
-                <ul class="lg:flex"> 
-                    <li>
-                        <a href="#" class="block mr-6 font-serif tracking-normal text-white border-b-2 border-transparent font-seriftext-base hover:border-gray-400 lg:p-4">Become a host</a>
-                    </li>
+            <div class="hidden w-full lg:flex lg:w-auto" id="menu">
                     
-                        <a href="#" class="flex items-center pr-2 cursor-pointer gray">
-                        <i class="text-white fas fa-globe " alt="fa-globe"></i>  
-                </ul> 
-
-                                <!-- <div class="items-center lg:flex lg:pt-0"> -->
-                <!-- <div class="hidden w-full lg:flex lg:items-center lg:w-auto" id="menu"> -->
-                    <!-- <a href="#" class="flex items-center cursor-pointer"> -->
-                
-            </div>
-                
-            <div class="flex items-center">
-                    <a href="#" class="cursor-pointer ">
-                <div class="flex items-center bg-white border-0 border-gray-400 rounded-full lg:py-1 lg:px-1">
-                    <i class="pl-2.5 fa-sm fas fa-bars" alt="bars"></i>
+                        <div class="justify-center lg:flex ">
+                                    
+                            <ul class="mr-16 font-serif text-base antialiased font-thin text-white lg:flex lg:pt-0">
+                                <li>
+                                    <a href="#" class="block border-b-2 border-transparent hover:border-gray-400 lg:p-4">Places to stay</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="block border-b-2 border-transparent hover:border-gray-400 lg:p-4">Experiences</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="block border-b-2 border-transparent hover:border-gray-400 lg:p-4">Online Experiences</a>
+                                </li>
+                            </ul>
+                            
+                            <ul class="lg:flex"> 
+                                <li>
+                                    <a href="#" class="block mr-6 font-serif tracking-normal text-white border-b-2 border-transparent font-seriftext-base hover:border-gray-400 lg:p-4">Become a host</a>
+                                </li>
+                                
+                                    <a href="#" class="flex items-center pr-2 cursor-pointer gray">
+                                    <i class="text-white fas fa-globe " alt="fa-globe"></i>  
+                            </ul> 
+                            <div class="items-center lg:flex lg:pt-0">
+                            <div class="hidden w-full lg:flex lg:items-center lg:w-auto" id="menu">
+                                <a href="#" class="flex items-center cursor-pointer">
+                            
+                        </div>
                     
-                    <a href="#" class="flex cursor-pointer item-center lg:ml-4 lg:mb-0">
-                        <img src="/img/AMPLJacket.jpg" class="w-8 h-8 border-2 rounded-full" alt="user name">          
-                </div>    
-            </div> 
-                              
+                        <div class="flex items-center">
+                                <a href="#" class="cursor-pointer ">
+                            <div class="flex items-center bg-white border-0 border-gray-400 rounded-full lg:py-1 lg:px-1">
+                                <i class="pl-2.5 fa-sm fas fa-bars" alt="bars"></i>
+                                
+                                <a href="#" class="flex cursor-pointer item-center lg:ml-4 lg:mb-0">
+                                    <img src="/img/AMPLJacket.jpg" class="w-8 h-8 border-2 rounded-full" alt="user name">          
+                            </div>    
+                        </div> 
+                                  
         </header>
     <!--header end-->
 
     <!--search start-->
-    
-        <div class="md:w-1/2 lg:w-full lg:mx-36">
-            <div class="flex bg-white rounded-full shadow-xl">
-                <input class="w-full px-6 py-6 leading-tight text-gray-700 rounded-l-full focus:outline-none" id="search" type="text" placeholder="Search">
-                
-                <div class="p-2 lg:w-auto">
-                    <button class="flex items-center justify-center w-10 h-10 p-6 text-white bg-red-600 rounded-full focus:outline-none">
-                        <i class="fas fa-search"></i>
-                    </button>
-                </div>
-                </div>
-            </div>
-        </div>      
+                    <div class="lg:w-full md:w-1/2 md:mx-36" id="menu">
+                        <div class="flex bg-white rounded-full shadow-xl">
+                            <input class="w-full px-6 py-6 leading-tight text-gray-700 rounded-l-full focus:outline-none" id="search" type="text" placeholder="Search">
+                            
+                            <div class="p-2 lg:w-auto">
+                                <button class="flex items-center justify-center w-10 h-10 p-6 text-white bg-red-600 rounded-full focus:outline-none">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </div>
+                            </div>
+                        </div>
+                    </div>              
     <!--search end-->
 
     <!--go near start-->
@@ -101,7 +99,6 @@
                 <div class="flex flex-wrap lg:pl-16 lg:flex lg:items-center lg:w-auto">   
                     <a class="mb-5 font-sans text-sm font-medium text-white opacity-100 w-72">Settle in somewhere new. Discover stays to live, work, or just relax.</a>
                 </div> 
-                    <!-- <a href="#" class="font-sans text-white border-2 rounded-lg lg:py-2 lg:px-4">Explore nearby</a>   -->
                 <div class="flex flex-wrap pb-8 lg:pl-16 lg:flex lg:items-center lg:w-auto">
                     <a href="#" class="box-content p-1 font-sans text-sm text-black bg-white border-opacity-75 rounded-lg shadow-md opacity-100 font-semibold border-1 border-ligh-gray-400 lg:py-1.5 lg:px-2.5 ">Explore nearby</a>
                 </div>     
